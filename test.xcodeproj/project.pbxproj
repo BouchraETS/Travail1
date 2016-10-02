@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8621AA3C1DA0443300766F1F /* Joueur.m in Sources */ = {isa = PBXBuildFile; fileRef = 8621AA3B1DA0443300766F1F /* Joueur.m */; };
 		86CDE94D1D9C71FF0035590F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDE94C1D9C71FF0035590F /* main.m */; };
 		86CDE9501D9C71FF0035590F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDE94F1D9C71FF0035590F /* AppDelegate.m */; };
 		86CDE9531D9C71FF0035590F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDE9521D9C71FF0035590F /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8621AA3A1DA0443300766F1F /* Joueur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joueur.h; sourceTree = "<group>"; };
+		8621AA3B1DA0443300766F1F /* Joueur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joueur.m; sourceTree = "<group>"; };
 		86CDE9481D9C71FF0035590F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDE94C1D9C71FF0035590F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86CDE94E1D9C71FF0035590F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				86CDE9591D9C71FF0035590F /* LaunchScreen.storyboard */,
 				86CDE95C1D9C71FF0035590F /* Info.plist */,
 				86CDE94B1D9C71FF0035590F /* Supporting Files */,
+				8621AA3A1DA0443300766F1F /* Joueur.h */,
+				8621AA3B1DA0443300766F1F /* Joueur.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CDE9531D9C71FF0035590F /* ViewController.m in Sources */,
+				8621AA3C1DA0443300766F1F /* Joueur.m in Sources */,
 				86CDE9501D9C71FF0035590F /* AppDelegate.m in Sources */,
 				86CDE94D1D9C71FF0035590F /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				86CDE9771D9C71FF0035590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86CDE9781D9C71FF0035590F /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				86CDE97A1D9C71FF0035590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86CDE97B1D9C71FF0035590F /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				86CDE97D1D9C71FF0035590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
